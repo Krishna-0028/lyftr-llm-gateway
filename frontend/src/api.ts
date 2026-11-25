@@ -1,7 +1,7 @@
 import type { ChatResponse, HealthResponse } from './types';
 
 export const API_BASE_URL = (
-  import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
+  import.meta.env.VITE_API_BASE_URL || 'https://lyftr-llm-backend.onrender.com'
 ).replace(/\/+$/, '');
 
 export class ApiError extends Error {
